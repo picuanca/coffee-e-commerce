@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HERO */
+
+.hero {
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+        ),
+        url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085")
+        center / cover no-repeat;
+
+    color: white;
+}
+
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+.hero p {
+    font-size: 1.3rem;
+}
+
+
+.card {
+    transition: transform 0.2s;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+}
